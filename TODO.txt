@@ -1,0 +1,4 @@
+ * split CSS into separate files
+ * fix icons on folder_contents
+ * check standards and all that
+ * check all browsers

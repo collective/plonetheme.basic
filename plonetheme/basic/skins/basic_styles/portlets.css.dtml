@@ -1,0 +1,171 @@
+/* <dtml-with base_properties> (do not remove this)
+   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either) */
+
+/* general portlet styles */
+.portlet {
+    margin: 0 0 1em;
+}
+.portletError {
+    background-color: #FFA500;
+}
+.portlet dt,
+.portletAssignments .portletHeader {
+    padding: 0.5em 1em;
+    background: &dtml-neutralColor;;
+}
+.portlet dt a,
+.portlet dt a:visited,
+.portlet dt a:hover {
+    color: #000000;
+}
+.portlet .portletItem,
+.portlet .portletFooter,
+.portletError dd {
+    padding: 1em;
+}
+.managePortletsLink,
+a.managePortletsFallback {
+    text-align: center;
+    padding: 0.25em;
+    font-size: &dtml-fontSmallSize;;
+    margin: 0 auto 1em;
+    background: &dtml-neutralColor;;
+}
+a.managePortletsFallback {
+    display: inline-block;
+}
+#content a.managePortletsFallback {
+    display: block;
+}
+
+.portletItemDetails { 
+	font-size: 85%;
+	padding-top: .5em;
+    line-height: 1.5em;
+    margin-left: 1em;
+    display: block;
+}
+
+/* @@ manage-portlets */
+.managedPortlet {
+    margin: 0.8em 0;
+}
+.blockedPortlet .portletHeader {
+    border: 1px dashed #ddd;
+    margin: -1px;
+    background: none;
+}
+.blockedPortlet .portletHeader a {
+    color: #666;
+}
+.blockedPortlet .portletBlockedMessage {
+    color: white;
+    display: inline;
+}
+.portletAssignments {
+    font-size: 0.8em;
+    line-height: 2em;
+}
+.portletAssignments .managedPortletActions {
+    float: right;
+}
+.portletAssignments .managedPortletActions a {
+    margin: 0 0.25em;
+    border: none;
+}
+
+/* site setup prefs portlet */
+#portlet-prefs a {
+    line-height: 2em;
+}
+
+/* navigation portlet */
+.portlet ul.navTree li {
+    margin-bottom: 0;
+}
+.portlet ul.navTree li a {
+    border: none;
+    display: block;
+    padding: 0 1em;
+}
+.portletNavigationTree dd.portletItem {
+    padding: 0;
+}
+.portlet ul.navTreeLevel0 > .navTreeItem {
+    border-bottom: 1px dotted #333333;
+}
+.portlet ul.navTreeLevel1 .navTreeItem {
+    padding-left: 0.5em;
+}
+.portlet ul.navTree .navTreeCurrentItem {
+    background-color: &dtml-neutralColor;;
+}
+
+/* search portlet */
+.portletSearch .LSResult {
+    margin-top: 0;
+    font-size: &dtml-fontSmallSize;;
+}
+
+/* calendar portlet */
+.portletCalendar {
+    margin: 1px 0 1em 0;
+}
+.portletCalendar dt {
+    background-color: &dtml-neutralColor;;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6em;
+    border-bottom: none;
+}
+.portlet.portletCalendar dd {
+    margin: 0;
+    padding: 0;
+}
+.portletCalendar dt a#calendar-previous {
+    float: left;
+    padding: 0 1em;
+    margin: 0 -.5em;
+}
+.portletCalendar dt a#calendar-next {
+    float: right;
+    padding: 0 1em;
+    margin: 0 -.5em;
+}
+.portletCalendar a, .portletCalendar a:focus,
+.portletCalendar a, .portletCalendar a:hover {
+    text-decoration: none;
+}
+.ploneCalendar {
+    border-spacing: 0;
+    width: 100%;
+}
+.ploneCalendar a {
+    text-decoration: none;
+}
+.ploneCalendar td {
+    background-color: transparent;
+    width: 14%;
+    text-align: center;
+    padding: 2px;
+}
+.ploneCalendar .weekdays th {
+    background-color: #eee;
+    text-align: center;
+    padding: 2px;
+    font-weight: normal;
+}
+.ploneCalendar .event {
+    background-color: &dtml-neutralColor;;
+    font-weight: bold;
+}
+.ploneCalendar .todayevent {
+    background-color: &dtml-neutralColor;;
+    border: 2px solid &dtml-primaryColor;;
+    font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+    border: 2px solid &dtml-primaryColor;;
+}
+
+/* </dtml-with> */
