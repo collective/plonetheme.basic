@@ -5,6 +5,10 @@
 .portlet {
     margin: 0 0 1em;
 }
+.portlet p,
+.portlet {
+    margin-bottom: 1em;
+}
 .portletError {
     background-color: #FFA500;
 }
@@ -23,6 +27,15 @@
 .portletError dd {
     padding: 1em;
 }
+.portletItemDetails { 
+	font-size: 85%;
+	padding-top: .5em;
+    line-height: 1.5em;
+    margin-left: 1em;
+    display: block;
+}
+
+/* manage portlet link */
 .managePortletsLink,
 a.managePortletsFallback {
     text-align: center;
@@ -35,14 +48,6 @@ a.managePortletsFallback {
     display: inline-block;
 }
 #content a.managePortletsFallback {
-    display: block;
-}
-
-.portletItemDetails { 
-	font-size: 85%;
-	padding-top: .5em;
-    line-height: 1.5em;
-    margin-left: 1em;
     display: block;
 }
 
