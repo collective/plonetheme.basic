@@ -12,7 +12,6 @@ but this theme has been set up to be more easily customizable.
  * Goes back to table-based layout.
    (Not the best, I know, but it's so simple!)
  * CSS does not use !important, except for padding on content icons
- * Removed <img> tags from templates for icons. This is handled with CSS.
  * Cleaned up CSS selectors for efficiency
    (http://css-tricks.com/efficiently-rendering-css/)
 

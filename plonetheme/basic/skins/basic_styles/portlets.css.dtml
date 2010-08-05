@@ -85,25 +85,30 @@ a.managePortletsFallback {
 }
 
 /* navigation portlet */
-.portlet ul.navTree li {
+.portlet .navTree li {
     margin-bottom: 0;
 }
-.portlet ul.navTree li a {
+.portlet .navTree a {
     border: none;
     display: block;
     padding: 0 1em;
 }
-.portletNavigationTree dd.portletItem {
+.portletNavigationTree .portletItem {
     padding: 0;
 }
-.portlet ul.navTreeLevel0 > .navTreeItem {
+.portlet .navTreeLevel0 > .navTreeItem {
     border-bottom: 1px dotted #333333;
 }
-.portlet ul.navTreeLevel1 .navTreeItem {
+.portlet .navTreeLevel1 .navTreeItem {
     padding-left: 0.5em;
 }
-.portlet ul.navTree .navTreeCurrentItem {
+.portlet .navTree .navTreeCurrentItem {
     background-color: &dtml-neutralColor;;
+}
+.icons-on .portlet .navTree .contenttype-file,
+.icons-on .portlet .navTree .contenttype-image {
+    line-height: 2em;
+    padding-left: 0px;
 }
 
 /* search portlet */
@@ -128,12 +133,10 @@ a.managePortletsFallback {
     padding: 0;
 }
 .portletCalendar dt a#calendar-previous {
-    float: left;
     padding: 0 1em;
     margin: 0 -.5em;
 }
 .portletCalendar dt a#calendar-next {
-    float: right;
     padding: 0 1em;
     margin: 0 -.5em;
 }
@@ -143,6 +146,7 @@ a.managePortletsFallback {
 }
 .ploneCalendar {
     border-spacing: 0;
+    border-collapse: collapse;
     width: 100%;
 }
 .ploneCalendar a {
