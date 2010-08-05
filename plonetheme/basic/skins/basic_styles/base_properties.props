@@ -22,10 +22,6 @@ borderWidth:string=1px
 borderStyle:string=solid
 borderStyleAnnotations:string=dashed
 
-globalBorderColor:string=#8cacbb
-globalBackgroundColor:string=#dee7ec
-globalFontColor:string=#436976
-
 headingFontFamily:string=Verdana, Arial, sans-serif
 headingColor:string=#333333
 
@@ -37,8 +33,6 @@ inputFontColor:string=#000000
 
 highlightColor:string=#ffffe0
 
-textTransform:string=normal
-
 evenRowBackgroundColor:string=transparent
 oddRowBackgroundColor:string=#eeeeee
 
@@ -48,6 +42,5 @@ notifyBackgroundColor:string=#ffce7b
 discreetColor:string=#76797c
 helpBackgroundColor:string=#ffffe1
 
-portalMinWidth:string=70em
 columnOneWidth:string=25%
 columnTwoWidth:string=25%

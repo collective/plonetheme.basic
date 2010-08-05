@@ -1,5 +1,4 @@
-/* <dtml-with base_properties> (do not remove this)
-   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either) */
+/* <dtml-with base_properties> (do not remove this) */
 
 /* Tabs */
 #content .formTabs {
@@ -77,13 +76,14 @@
 #contentActionMenus {
     line-height: 2em;
     float: right;
-    *clear: both;
     background: &dtml-contentViewBackgroundColor;;
-    margin: 0;
     position: relative;
+    margin: 0;
     top: -0.23em;
     right:-0.24em;
     padding: 0.1em 0.24em 0 0;
+    *clear: both;
+    *position: static;
 }
 #contentActionMenus .actionMenu a,
 #contentActionMenus .actionMenu.activated dd {

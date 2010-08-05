@@ -1,5 +1,4 @@
-/* <dtml-with base_properties> (do not remove this)
-   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either) */
+/* <dtml-with base_properties> (do not remove this) */
 
 /* CSS Reset */
 
@@ -130,8 +129,8 @@ td {
 
 /* logo */
 #portal-logo {
-    display: inline-block;
     margin: 10px 0;
+    float: left;
 }
 
 /* global nav */
@@ -145,7 +144,7 @@ td {
     padding: 10px;
     background: &dtml-neutralColor;;
     white-space: normal;
-    border-right: 1px solid white;
+    border-right: &dtml-borderWidth; &dtml-borderStyle; white;
 }
 #portal-globalnav .selected a,
 #portal-globalnav a:hover {
@@ -241,7 +240,7 @@ td {
 }
 .livesearchContainer {
     padding: 1em 0 0;
-    border: 1px solid #ccc;
+    border: &dtml-borderWidth; &dtml-borderStyle; #ccc;
 }
 #livesearchLegend {
     background-color:#ccc;
@@ -438,7 +437,7 @@ table.plain {
 }
 .plain th,
 .plain td {
-    border: 1px solid &dtml-neutralColor;;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-neutralColor;;
 }
 
 .listing .listingCheckbox {
@@ -448,12 +447,12 @@ table.plain {
 .listing th {
     text-align: left;
     color: #666;
-    border: 1px solid #e7e7e7;
-    border-style: solid none none;
+    border: &dtml-borderWidth; &dtml-borderStyle; #e7e7e7;
+    border-style: &dtml-borderStyle; none none;
 }
 .listing .odd th {
-    border: 1px solid #fff;
-    border-style: solid solid none none;
+    border: &dtml-borderWidth; &dtml-borderStyle; #fff;
+    border-style: &dtml-borderStyle; &dtml-borderStyle; none none;
 }
 .listing th {
     font-weight: bold;
@@ -478,7 +477,7 @@ table.plain {
 .listing .odd td.draggable {
     text-shadow: #ffffff 1px 1px 1px;
     background: &dtml-neutralColor;;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: &dtml-borderWidth; &dtml-borderStyle; #ffffff;
     padding: 0.4em 0.4em 0 0.5em;
 }
 .listing .odd.selected td,
@@ -492,17 +491,17 @@ tr.selected {
     text-align: right;
 }
 .vertical td {
-    border-top: 1px solid #e7e7e7;
+    border-top: &dtml-borderWidth; &dtml-borderStyle; #e7e7e7;
     padding: 0.5em;
 }
 /* Grid table listings */
 .grid td,
 .grid th {
-    border: 1px solid #e7e7e7;
+    border: &dtml-borderWidth; &dtml-borderStyle; #e7e7e7;
     padding: 0.5em;
 }
 .dragindicator {
-    outline: 2px solid #FFD700;
+    outline: 2px &dtml-borderStyle; #FFD700;
 }
 
 #foldercontents-order-column {
@@ -526,7 +525,7 @@ tr.selected {
 .listingBar a {
     display: inline-block;
     padding: 0.25em 0.5em;
-    border: 1px solid #ccc;
+    border: &dtml-borderWidth; &dtml-borderStyle; #ccc;
 }
 .listingBar a:hover {
     color: #ffffff;
@@ -538,7 +537,7 @@ tr.selected {
 .portalMessage {
     margin: 1em 0;
     font-size: &dtml-fontSmallSize;;
-    border: 1px solid #996;
+    border: &dtml-borderWidth; &dtml-borderStyle; #996;
     background-color: #ffffe3;
     clear: both;
 }
@@ -591,7 +590,7 @@ tr.selected {
     padding-right: 0.5em;
 }
 .optionsToggle {
-    border: 1px solid #8cacbb;
+    border: &dtml-borderWidth; &dtml-borderStyle; #8cacbb;
     color: #000000;
     background-color: #dee7ec;
     font-weight: normal;
@@ -649,7 +648,7 @@ tr.selected {
 }
 .currentItem {
     border-collapse: collapse;
-    border: 0.2em solid #ffa500;
+    border: 0.2em &dtml-borderStyle; #ffa500;
     padding: 0.1em;
 }
 
@@ -672,7 +671,7 @@ can both be on an image and a wrapper element e.g. a dl tag*/
 img.image-left,
 img.image-right,
 .captioned img {
-    border: 1px solid &dtml-neutralColor;;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-neutralColor;;
 }
 .image-caption {
     text-align: left;
@@ -762,8 +761,8 @@ fieldset,
     vertical-align: top;
 }
 #content fieldset {
-    border: 1px solid &dtml-primaryColor;;
-    border-style: solid none none none;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-primaryColor;;
+    border-style: &dtml-borderStyle; none none none;
 }
 #content legend {
     padding: 0.5em;
@@ -821,7 +820,7 @@ label {
 }
 div.error {
     background-color: #fdc;
-    border:  1px solid red;
+    border:  &dtml-borderWidth; &dtml-borderStyle; red;
     padding: 0.5em;
     margin:  1em 0;
 }
@@ -902,7 +901,7 @@ input.searchPage {
     display: block;
 }
 #portal-sitemap > li {
-    border-bottom: 1px dotted &dtml-neutralColor;;
+    border-bottom: &dtml-borderWidth; dotted &dtml-neutralColor;;
     line-height: 1.8em;
     padding: 0.25em 1em;
     margin-bottom: 0;
@@ -936,7 +935,7 @@ input.searchPage {
     background-repeat: no-repeat;
 }
 .photoAlbumEntry img {
-    border: 1px solid #ccc;
+    border: &dtml-borderWidth; &dtml-borderStyle; #ccc;
     display: block;
     margin: 0 auto;
 }
@@ -998,7 +997,7 @@ input.searchPage {
 }
 .pb-ajax, .pb-image {
     background-color: #fff;
-    border: 1px solid #999;
+    border: &dtml-borderWidth; &dtml-borderStyle; #999;
     white-space: normal;
     box-shadow: 0 0 3em 0.5em #666;
     -moz-box-shadow: 0 0 3em 0.5em #666;

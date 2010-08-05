@@ -1,10 +1,11 @@
 Introduction
 ============
 
-plonetheme.basic is a Plone 4 theme.
+Plone Basic is a theme for Plone 4. This theme works well on its own,
+but is meant to be used as a base for heavily-customized sites.
 
 plonetheme.basic is similar to plonetheme.sunburst -- styles were copied
-from sunburst, and modified as outlined below. Appearances are very similar,
+from Sunburst, and modified as outlined below. Appearances are very similar,
 but this theme has been set up to be more easily customizable.
 
  * Uses base_properties, and some variables have been added for quick
