@@ -147,14 +147,19 @@
 }
 
 /* Workflow Colors */
-.actionMenu .state-private,
-.portlet .state-private {
-    color: #ff0000;
+.actionMenu .state-private {
+    background-color: #c00000;
+    padding: 1px 3px;
 }
-
-.actionMenu .state-pending,
+.portlet .state-private {
+    color: #c00000;
+}
+.actionMenu .state-pending {
+    background-color: #E59500;
+    padding: 1px 3px;
+}
 .portlet .state-pending {
-    color: #804000;
+    color: #E59500;
 }
 
 /* Site Setup */

@@ -36,8 +36,8 @@ highlightColor:string=#ffffe0
 evenRowBackgroundColor:string=transparent
 oddRowBackgroundColor:string=#eeeeee
 
-notifyBorderColor:string=#ffa500
-notifyBackgroundColor:string=#ffce7b
+notifyBorderColor:string=#9C6E3D
+notifyBackgroundColor:string=#ffffe3
 
 discreetColor:string=#76797c
 helpBackgroundColor:string=#ffffe1

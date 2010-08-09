@@ -537,12 +537,12 @@ tr.selected {
 .portalMessage {
     margin: 1em 0;
     font-size: &dtml-fontSmallSize;;
-    border: &dtml-borderWidth; &dtml-borderStyle; #996;
-    background-color: #ffffe3;
+    border: &dtml-borderWidth; &dtml-borderStyle; &dtml-notifyBorderColor;;
+    background-color: &dtml-notifyBackgroundColor;;
     clear: both;
 }
 .portalMessage dt {
-    background-color: #996;
+    background-color: &dtml-notifyBorderColor;;
     font-weight: bold;
     float: left;
     margin: 0 0.5em 0 0;

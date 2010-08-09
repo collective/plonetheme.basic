@@ -1,3 +1,2 @@
  * Use a simple grid-based layout instead of tables
- * check standards and all that
  * check all browsers
