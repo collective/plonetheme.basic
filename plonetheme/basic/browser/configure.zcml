@@ -9,22 +9,5 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="Plone Basic"
       />
-  
-  <!-- Viewlets registration -->
-  <!-- Zope 3 browser resources -->
-
-  <!-- Resource directory for images -->
-  <browser:resourceDirectory
-      name="plonetheme.basic.images"
-      directory="images"
-      layer=".interfaces.IThemeSpecific"
-      />
-
-  <!-- Resource directory for stylesheets -->
-  <browser:resourceDirectory
-      name="plonetheme.basic.stylesheets"
-      directory="stylesheets"
-      layer=".interfaces.IThemeSpecific"
-      />
 
 </configure>
