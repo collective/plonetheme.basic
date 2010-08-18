@@ -22,12 +22,14 @@
     color: #000000;
 }
 .portlet .portletItem,
-.portlet .portletFooter,
 .portletError dd {
     padding: 1em;
 }
+.portlet .portletFooter {
+    padding: .5em 1em;
+}
 .portletItemDetails { 
-	font-size: 85%;
+	font-size: &dtml-fontSmallSize;;
 	padding-top: .5em;
     line-height: 1.5em;
     margin-left: 1em;
