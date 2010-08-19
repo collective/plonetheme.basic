@@ -20,5 +20,13 @@
       description='An easily customizable theme for Plone 4'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+      
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Plone Basic Uninstall"
+      directory="profiles/uninstall"
+      description='Uninstall profile for Plone Basic'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
 </configure>
