@@ -1,6 +1,6 @@
-title:string=Plone Simple's color, font, logo and border defaults
+title:string=Plone Basic's color, font, logo and border defaults
 
-plone_skin:string=Plone Simple
+plone_skin:string=Plone Basic
 
 logoName:string=logo.png
 
