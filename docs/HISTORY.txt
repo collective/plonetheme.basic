@@ -3,6 +3,10 @@ Changelog
 
 0.2 (unreleased)
 ----------------
+- moved the padding on personal tools to just the header, so if the login
+  link is hidden, there won't still be a grey box
+  [cwainwright]
+
 - Added an uninstall profile
   [cwainwright]
 

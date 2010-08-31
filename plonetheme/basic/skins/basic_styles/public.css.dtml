@@ -160,10 +160,10 @@ td {
     z-index: 3; /* personaltools should be above #portal-header (with z-index: 2) */
     top: 0;
     right: 0;
-    padding: 0.25em 0.5em;
 }
 #portal-personaltools .actionMenuHeader {
     font-weight: normal;
+    padding: 0.25em 0.5em;
 }
 #portal-personaltools .actionMenuHeader a:after {
     content: " ▼";
