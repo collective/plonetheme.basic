@@ -3,6 +3,11 @@ Changelog
 
 0.2 (unreleased)
 ----------------
+- fixed styles on livesearch
+   * increased z-index for compatibility with webcouturier.dropdownmenu
+   * removed white space from top for IE7
+   * increased font size to base font
+
 - moved the padding on personal tools to just the header, so if the login
   link is hidden, there won't still be a grey box
   [cwainwright]
