@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.3 (unreleased)
+---------------
+
+
 0.2 (Nov-22-2010)
 ----------------
 - fixed styles on livesearch
