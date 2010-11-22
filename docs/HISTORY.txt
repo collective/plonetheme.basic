@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.2 (unreleased)
+0.2 (Nov-22-2010)
 ----------------
 - fixed styles on livesearch
    * increased z-index for compatibility with webcouturier.dropdownmenu
