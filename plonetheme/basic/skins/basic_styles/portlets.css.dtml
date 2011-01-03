@@ -117,6 +117,14 @@ a.managePortletsFallback {
     margin-top: 0;
     font-size: &dtml-fontSmallSize;;
 }
+.portletSearch .searchField {
+    width: 97%;
+    margin-bottom: 5px;
+}
+.portletSearch .searchButton {
+    display: block;
+    float: right;
+}
 
 /* calendar portlet */
 .portletCalendar {

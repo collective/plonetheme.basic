@@ -111,6 +111,7 @@ td {
 }
 #portal-columns {
     width: 100%;
+    border-collapse: collapse;
 }
 #portal-column-one {
     width: &dtml-columnOneWidth;;

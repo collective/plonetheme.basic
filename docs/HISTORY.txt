@@ -2,6 +2,11 @@ Changelog
 =========
 
 0.3 (unreleased)
+----------------
+- set #portal-columns borders to collapse, to remove little bits of space
+- changed up the styles on the search portlet, so it will work better
+  with narrower columns widths
+  [cwainwright] 
 
 0.2 (Nov-22-2010)
 ----------------
