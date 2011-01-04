@@ -39,8 +39,8 @@ textTransform:string=none
 
 highlightColor:string=#ffffe0
 
-evenRowBackgroundColor:string=transparent
-oddRowBackgroundColor:string=#eeeeee
+evenRowBackgroundColor:string=#eeeeee
+oddRowBackgroundColor:string=transparent
 
 notifyBorderColor:string=#9C6E3D
 notifyBackgroundColor:string=#ffffe3
