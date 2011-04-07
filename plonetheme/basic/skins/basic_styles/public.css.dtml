@@ -94,7 +94,7 @@ td {
     margin: -0.1em 0 0 -0.1em;
     width: 1px;
 }
-#content .visualNoMarker {
+.visualNoMarker {
     list-style:none;
     margin-left: 0;
 }
@@ -307,120 +307,33 @@ td {
     padding: 0 0.75em;
 }
 
-/* CONTENT AREA                                                              */
+/* CONTENT AREA                                                             */
 #content {
     line-height: 1.5em;
     clear: both;
     margin: 1em 0.25em 2em 0.25em;
 }
-/* Special case of #content - TinyMCE */
 body#content {
     margin: 1em;
 }
-#content h1 {
-    margin-top: 0.5em;
-}
-#content .documentFirstHeading {
+.documentFirstHeading {
     margin-top: 0;
 }
-#content p,
-#content table,
-#content dl {
-    margin-bottom: 1em;
-}
-#content a:target {
-    background-color: #ffb;
-}
-#content span.link-external a {
-    background: transparent url(link_icon.png) 0px 1px no-repeat;
-    padding: 1px 0px 1px 16px;
-}
-#content ul {
-    list-style-type: disc;
-    margin-left: 2em;
-}
-#content ol,
-.portlet ol {
-    list-style-type: decimal;
-    margin-left: 2em;
-}
-#content li,
-.portlet li {
-    margin-bottom: 0.25em;
-    line-height: 1.5em;
-    display: list-item;
-}
-#content dt {
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-right: 0;
-}
-#content dd {
-    margin: 0 0 1em 2em;
-}
-#content pre {
-    background-color: #222;
-    color: #ffffff;
-    font-family: "Courier New", monospace;
-    padding: 1em;
-    overflow-x: auto;
-    font-size: 90%;
-    margin-bottom: 1em;
-    line-height: 1.25em;
-}
-#content pre.python {
-    background-color: #ffffff;
-}
-#content code {
-    font-family: "Courier New", monospace;
-}
-#content .documentByLine {
-    font-size: &dtml-fontSmallSize;;
-    color: #666;
-}
-#content .discreet,
-#sidebar .discreet {
-    color: #666;
-    font-size: &dtml-fontSmallSize;;
-    font-weight: normal;
-}
-#content .visualHighlight {
-    background-color: #ffb;
-}
-#content .pullquote {
-    margin: 0 1em 0.5em 0.5em;
-    font-weight: bold;
-    line-height: 1.25em;
-    float: right;
-    width: 35%;
-    clear: right;
-    color: #444;
-    font-size: 1.6em;
-    letter-spacing: -0.08em;
-}
-#content .callout {
-    background: #eee;
-    padding: 1em;
-    border-left: 1em solid #ccc;
-    clear: both;
-}
-#content table {
-    text-align: left;
-    border-collapse: collapse;
-    border-spacing: 0px;
-}
-#content .documentDescription,
-#content #description {
+.documentDescription,
+#description {
     color: #666;
     font: bold 1.25em &dtml-fontFamily;;
 }
-
-#content .tileImage,
-#content .newsImageContainer {
+.documentByLine {
+    font-size: &dtml-fontSmallSize;;
+    color: #666;
+}
+.tileImage,
+.newsImageContainer {
     float: right;
     margin: 0 1em 0.5em 1em;
 }
-#content .newsImageContainer .discreet {
+.newsImageContainer .discreet {
     margin: 0;
     padding: 0.5em;
     background-color: #666;

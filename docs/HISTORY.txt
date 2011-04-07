@@ -4,6 +4,12 @@ Changelog
 0.3 (xxx-xx-xxxx)
 -----------------
 
+- For elements entered in the visual editor - moved the styles
+  to a separate stylesheet and made the selectors more specific.
+  This way, clearing the styles is easier, and they won't conflict
+  with styles for elements in custom templates.
+  [cwainwright]
+
 - fixed some default styles to work with
   webcouturier.dropdownmenu
   [cwainwright]
@@ -16,7 +22,7 @@ Changelog
   without all the variables won't error out
   [cwainwright]
 
-- Fix up the resturctured text
+- Fix up the restructured text
   [claytron]
 
 - set #portal-columns borders to collapse, to remove little bits of space
