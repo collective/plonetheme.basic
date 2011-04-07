@@ -90,7 +90,7 @@
 #contentActionMenus .actionMenu.activated dd {
     background-color: &dtml-contentViewBackgroundColor;;
     color: #ffffff;
-    z-index: 5;
+    z-index: 25;
 }
 #contentActionMenus .actionMenu.activated dd {
     border-bottom: 0.5em solid &dtml-contentViewBackgroundColor;;
