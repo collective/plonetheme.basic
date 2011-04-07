@@ -4,6 +4,9 @@ Changelog
 0.3 (xxx-xx-xxxx)
 -----------------
 
+- Display an arrow for the user menu in IE6/7
+  [cwainwright]
+
 - For elements entered in the visual editor - moved the styles
   to a separate stylesheet and made the selectors more specific.
   This way, clearing the styles is easier, and they won't conflict
