@@ -4,6 +4,10 @@ Changelog
 0.3 (xxx-xx-xxxx)
 -----------------
 
+- moved extra dtml variables to a new properties file, so that themes
+  without all the variables won't error out
+  [cwainwright]
+
 - Fix up the resturctured text
   [claytron]
 

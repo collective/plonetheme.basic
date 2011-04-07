@@ -1,4 +1,5 @@
-/* <dtml-with base_properties> (do not remove this) */
+/* <dtml-with base_properties>
+   <dtml-with plonebasic_properties> */
 
 /*
 ** Plone Print style sheet for CSS2-capable browsers.
@@ -113,4 +114,4 @@ div.top,
 .discussion .documentByLine {
     display:block;
 }
-/* </dtml-with> */
+/* </dtml-with> </dtml-with> */

@@ -1,4 +1,5 @@
-/* <dtml-with base_properties> (do not remove this) */
+/* <dtml-with base_properties>
+   <dtml-with plonebasic_properties> */
 
 /* Tabs */
 #content .formTabs {
@@ -423,4 +424,4 @@
     margin-bottom: 1.5em;
 }
 
-/* </dtml-with> */
+/* </dtml-with> </dtml-with> */

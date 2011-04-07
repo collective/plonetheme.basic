@@ -9,6 +9,7 @@
  */
 
 /* <dtml-with base_properties> (do not remove this)
+   <dtml-with plonebasic_properties>
    <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either) */
  
 /* For a fixed-width layout, set the necessary width
@@ -20,11 +21,12 @@
    
    
 
-/* </dtml-with> */
+/* </dtml-with> </dtml-with> */
 
 /* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
 
- /* Copy base_properties.props from plonetheme/basic/skins/basic_styles
+ /* Copy base_properties.props and plonebasic_properties.props
+    from plonetheme/basic/skins/basic_styles
     into your own theme, and change the values for quick and easy
     site changes. 
  

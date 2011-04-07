@@ -10,11 +10,8 @@ fontColor:string=#333333
 fontSmallSize:string=10px
 
 backgroundColor:string=#ffffff
-primaryColor:string=#205C90
-neutralColor:string=#dddddd
 
 linkColor:string=#205C90
-linkHoverColor:string=#000000
 linkActiveColor:string=#205C90
 linkVisitedColor:string=#205C90
 
@@ -27,7 +24,6 @@ globalBackgroundColor:string=#eeeeee
 globalFontColor:string=#333333
 
 headingFontFamily:string=Verdana, Arial, sans-serif
-headingColor:string=#333333
 
 contentViewBorderColor:string=#75AD0A
 contentViewBackgroundColor:string=#75AD0A
@@ -36,8 +32,6 @@ contentViewFontColor:string=#ffffff
 inputFontColor:string=#000000
 
 textTransform:string=none
-
-highlightColor:string=#ffffe0
 
 evenRowBackgroundColor:string=#eeeeee
 oddRowBackgroundColor:string=transparent
@@ -48,5 +42,6 @@ notifyBackgroundColor:string=#ffffe3
 discreetColor:string=#76797c
 helpBackgroundColor:string=#ffffe1
 
+portalMinWidth:string=50%
 columnOneWidth:string=25%
 columnTwoWidth:string=25%

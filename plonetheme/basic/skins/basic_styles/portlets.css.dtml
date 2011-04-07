@@ -1,4 +1,5 @@
-/* <dtml-with base_properties> (do not remove this) */
+/* <dtml-with base_properties>
+   <dtml-with plonebasic_properties> */
 
 /* general portlet styles */
 .portlet {
@@ -178,4 +179,4 @@ a.managePortletsFallback {
     border: 2px solid &dtml-primaryColor;;
 }
 
-/* </dtml-with> */
+/* </dtml-with> </dtml-with> */
