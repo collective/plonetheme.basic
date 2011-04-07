@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.3 (xxx-xx-xxxx)
+0.3 (Apr-07-2011)
 -----------------
 
 - Display an arrow for the user menu in IE6/7
