@@ -154,6 +154,12 @@ td {
     color: #ffffff;
 }
 
+/* for webcouturier.dropdownmenu */
+#portal-globalnav .selected .submenu a {
+    background-color: &dtml-neutralColor;;
+    color: &dtml-linkColor;;
+}
+
 /* personal tools */
 #portal-personaltools {
     float: right;

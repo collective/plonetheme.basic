@@ -4,6 +4,10 @@ Changelog
 0.3 (xxx-xx-xxxx)
 -----------------
 
+- fixed some default styles to work with
+  webcouturier.dropdownmenu
+  [cwainwright]
+
 - increased z-indexes to avoid conflicts with add-on products like
   webcouturier.dropdownmenu and collective.easyslideshow
   [cwainwright]
