@@ -168,26 +168,27 @@
     font-size: 90%;
 }
 
-#content .configlets {
+.configlets {
     margin: 1em 0;
     list-style-image: none;
     list-style: none;
 }
-#content .configlets li {
+.configlets li {
     margin-bottom: 1em;
     list-style: none;
+    display: block;
 }
-#content .configlets li label {
+.configlets li label {
     font-weight: bold;
 }
-#content .configletDetails {
+.configletDetails {
     margin: 0em 1em 1em 3.2em;
 }
-#content .configletDetails li {
+.configletDetails li {
     margin-bottom: 1em;
     display: inline;
 }
-#content .configletDetails .configletDescription {
+.configletDetails .configletDescription {
     display: block;
     color: #76797c;
     margin: 0;
