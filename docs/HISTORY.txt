@@ -4,6 +4,9 @@ Changelog
 0.4 (xxx-xx-xxxx)
 -----------------
 
+- Fixed content area styles to display in TinyMCE
+  [cwainwright]
+
 - Fixed display of configlets list in Site Setup
   [cwainwright]
   
