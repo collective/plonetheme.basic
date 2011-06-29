@@ -5,9 +5,6 @@
  <object name="basic_images"
     meta_type="Filesystem Directory View"
     directory="plonetheme.basic:skins/basic_images"/>
- <object name="basic_templates"
-    meta_type="Filesystem Directory View"
-    directory="plonetheme.basic:skins/basic_templates"/>
  <object name="basic_styles"
     meta_type="Filesystem Directory View"
     directory="plonetheme.basic:skins/basic_styles"/>
@@ -15,10 +12,8 @@
  <skin-path name="Plone Basic" based-on="Plone Default">
   <layer name="basic_images"
      insert-after="custom"/>
-  <layer name="basic_templates"
-     insert-after="basic_images"/>
   <layer name="basic_styles"
-     insert-after="basic_templates"/>
+     insert-after="basic_images"/>
  </skin-path>
 
 </object>

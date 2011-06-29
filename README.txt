@@ -8,10 +8,9 @@ plonetheme.basic is similar to plonetheme.sunburst -- styles were copied
 from Sunburst, and modified as outlined below. Appearances are very similar,
 but this theme has been set up to be more easily customizable.
 
- * Uses base_properties, and some variables have been added for quick
+ * Uses base_properties, and custom .props with some variables added for quick
    color customizations.
- * Goes back to table-based layout.
-   (Not the best, I know, but it's so simple!)
+ * Uses Plone Default's table-based main_template.
  * CSS does not use !important, except for padding on content icons
  * Cleaned up CSS selectors for efficiency
    (http://css-tricks.com/efficiently-rendering-css/)

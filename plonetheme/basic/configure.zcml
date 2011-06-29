@@ -9,10 +9,7 @@
 
   <cmf:registerDirectory name="basic_images"/>
   <cmf:registerDirectory name="basic_styles"/>
-  <cmf:registerDirectory name="basic_templates"/>
 
-  <include package=".browser" />
-  
   <genericsetup:registerProfile
       name="default"
       title="Plone Basic"

@@ -1,9 +1,17 @@
 Changelog
 =========
 
-0.5 (xx-xx-xxxx)
+0.5 (Jun-29-2011)
 -----------------
 
+- made all list items in #content inline-block again.
+
+- removed searchSection label hover style
+
+- removed special styling on keywords, so they are normal links
+
+- removed browser and skins/templates folders (not used)
+  [cwainwright]
 
 0.4 (May-25-2011)
 -----------------

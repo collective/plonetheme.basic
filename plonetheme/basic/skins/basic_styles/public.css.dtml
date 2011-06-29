@@ -229,9 +229,6 @@ td {
     color: #666666;
     margin-top: 0.25em;
 }
-.searchSection label:hover {
-    color: #000000;
-}
 /* Collapsible elements in search_form */
 .collapsible .collapser.collapsed {
     padding-right: 14px;
@@ -315,6 +312,9 @@ td {
 }
 body#content {
     margin: 1em;
+}
+#content li {
+    display: list-item;
 }
 .documentFirstHeading {
     margin-top: 0;
@@ -545,18 +545,6 @@ tr.selected {
     margin-bottom: 1em;
     color: #666;
     text-align: right;
-}
-#category .link-category {
-    color: #000000;
-    padding: 0.25em 0.5em;
-    background: &dtml-neutralColor;;
-}
-#category .link-category:hover {
-    background: &dtml-primaryColor;;
-    color: #ffffff;
-}
-#category .separator {
-    display: none;
 }
 
 /* highlighting */

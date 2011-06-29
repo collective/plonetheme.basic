@@ -3,7 +3,6 @@
 
  <object name="basic_images" remove="True" />
  <object name="basic_styles" remove="True" />
- <object name="basic_templates" remove="True" />
  <skin-path name="Plone Basic" remove="True" />
 
 </object>
