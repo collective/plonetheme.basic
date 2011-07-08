@@ -4,6 +4,9 @@ Changelog
 0.6 (xx-xx-xxxx)
 -----------------
 
+- changed commentBody border to a simple border
+  [cwainwright]
+
 
 0.5 (Jun-29-2011)
 -----------------
