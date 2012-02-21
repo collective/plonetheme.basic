@@ -467,4 +467,70 @@
 }
 
 
+
+/* Content Categorization Tags */
+
+#existingTagsSection {
+    margin-left: 3em;
+    position: relative;
+}
+
+#existingTagsSection #existingTags {
+    float: left;
+    width: 50%;
+}
+
+#existingTagsSection #selectedTagsSection {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 3em;
+    width: 43%;
+}
+
+#existingTagsSection .optionsBox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border:  &dtml-borderWidth; &dtml-borderStyle; #999999;
+    height: 14em;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#existingTagsSection .optionsBox dd {
+    margin-bottom: 1px;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+#existingTagsSection .optionsBox LABEL {
+    display: block;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 2px 0 0;
+}
+#existingTagsSection .optionsBox input {
+    margin: 1px 4px 4px 6px;
+    vertical-align: middle;
+}
+#existingTagsSection .optionsBox LABEL.checked {
+    background-color: &dtml-neutralColor;;
+}
+#existingTagsSection .optionsBox LABEL.hover {
+    background: &dtml-primaryColor;;
+    color: #ffffff;
+}
+
+#existingTagsSection p.selectedTag {
+    margin-bottom: 0.65em;
+}
+
+#existingTagsSection span.selectedTag {
+    background: none repeat scroll 0 0 &dtml-neutralColor;;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    color: black;
+    padding: 0.25em 0.5em;
+}
+
+
+
+
 /* </dtml-with> </dtml-with> */
