@@ -5,48 +5,47 @@
    disable this file, or create a blank override
    to clear the styles */
 
-#parent-fieldname-text p,
-#parent-fieldname-text dl,
+#content-core p,
+#content-core dl,
 .mceContentBody p,
 .mceContentBody dl {
     margin-bottom: 1em;
 }
-#parent-fieldname-text a:target {
+#content-core a:target {
     background-color: #ffb;
 }
-#parent-fieldname-text span.link-external a {
+#content-core span.link-external a {
     background: transparent url('link_icon.png') 0px 1px no-repeat;
     padding: 1px 0px 1px 16px;
 }
-#parent-fieldname-text ul,
+#content-core ul,
 .mceContentBody ul {
     list-style-type: disc;
     margin-left: 2em;
 }
-#parent-fieldname-text ol,
+#content-core ol,
 .mceContentBody ol,
 .portlet ol {
     list-style-type: decimal;
     margin-left: 2em;
 }
-#parent-fieldname-text li,
+#content-core li,
 .mceContentBody li,
 .portlet li {
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    display: list-item;
 }
-#parent-fieldname-text dt,
+#content-core dt,
 .mceContentBody dt {
     font-weight: bold;
     margin-bottom: 0;
     margin-right: 0;
 }
-#parent-fieldname-text dd
+#content-core dd
 .mceContentBody dd {
     margin: 0 0 1em 2em;
 }
-#parent-fieldname-text pre,
+#content-core pre,
 .mceContentBody pre {
     background-color: #222;
     color: #ffffff;
@@ -57,26 +56,26 @@
     margin-bottom: 1em;
     line-height: 1.25em;
 }
-#parent-fieldname-text pre.python
+#content-core pre.python
 .mceContentBody pre.python {
     background-color: #ffffff;
 }
-#parent-fieldname-text code
+#content-core code
 .mceContentBody code {
     font-family: "Courier New", monospace;
 }
-#parent-fieldname-text .discreet,
+#content-core .discreet,
 .mceContentBody .discreet,
 #sidebar .discreet {
     color: #666;
     font-size: &dtml-fontSmallSize;;
     font-weight: normal;
 }
-#parent-fieldname-text .visualHighlight,
+#content-core .visualHighlight,
 .mceContentBody .visualHighlight {
     background-color: #ffb;
 }
-#parent-fieldname-text .pullquote,
+#content-core .pullquote,
 .mceContentBody .pullquote {
     margin: 0 1em 0.5em 0.5em;
     font-weight: bold;
@@ -88,14 +87,14 @@
     font-size: 1.6em;
     letter-spacing: -0.08em;
 }
-#parent-fieldname-text .callout,
+#content-core .callout,
 .mceContentBody .callout {
     background: #eee;
     padding: 1em;
     border-left: 1em solid #ccc;
     clear: both;
 }
-#parent-fieldname-text table,
+#content-core table,
 .mceContentBody table {
     text-align: left;
     border-collapse: collapse;

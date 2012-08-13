@@ -18,6 +18,9 @@
     float: left;
     background-color: &dtml-contentViewBackgroundColor;;
 }
+#content-views li {
+    display: inline;
+}
 #content-views a {
     color: &dtml-contentViewFontColor;
 }
@@ -85,6 +88,9 @@
     padding: 0.1em 0.24em 0 0;
     *clear: both;
     *position: static;
+}
+#contentActionMenus li {
+    display: inline;
 }
 #contentActionMenus .actionMenu a,
 #contentActionMenus .actionMenu.activated dd {
